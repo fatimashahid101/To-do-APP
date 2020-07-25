@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1><span class="styling">TODO</span>List</h1>
+    <div class="input_div">
+        <input class="input" placeholder="What do you want to do?" type="text" id="todo-item">
+        <button class="addbtn" onclick="addTodo()"><i class="fa fa-plus" aria-hidden="true"></i></button>
+        <button class="delallbtn" onclick="delAll()"><i class="fa fa-trash" aria-hidden="true"></i></button>
+    </div>
+   
+   <div class="container">
+    <div class="item">
+        <ul class="list" id="list">
+
+        </ul>
+    </div>
+
+   </div>
+   <div class="copyright">
+    <p><i class="fa fa-copyright" aria-hidden="true"></i>  Copyright   ||  All right reserved      ||Made by Fatima.</p>
+
+   </div>
+   
+    <script src="app.js"></script>
+</body>
+</html>
